@@ -1,0 +1,133 @@
+body /*sur toute la page!!*/
+{
+	background-color:rgb(255,255,153);
+	font-family: "Times New Roman", "Trebuchet MS", Arial, sherif;
+	background-image: url("images/fond.png");
+	background-repeat:repeat;
+}
+header
+{
+	width: 100%;
+	text-align: center;/*alignement du texte*/
+}
+nav
+{
+	border: 5px solid rgb(188,169,145);/*bordures : largeur, nature, couleur*/
+	border-radius: 5px;
+	width: 22%;/*largeur de la navigation*/
+	float: left;
+	background-image:linear-gradient(rgb(63,82,133),rgb(60,70,93),rgb(63,82,133)); /* Norme W3C */
+	background-image:-moz-linear-gradient(rgb(63,82,133),rgb(60,70,93),rgb(63,82,133)); /* Firefox */
+	background-image:-webkit-gradient(linear,rgb(63,82,133),rgb(60,70,93),rgb(63,82,133)); /* Chrome, Safari */
+	background-image:-o-linear-gradient(rgb(63,82,133),rgb(60,70,93),rgb(63,82,133)); /* Opera */
+	background-image:-ms-linear-gradient(rgb(63,82,133),rgb(60,70,93),rgb(63,82,133)); /* IE */
+}
+nav ul
+{
+	list-style-type: none; /*enlever les puces*/
+}
+section
+{
+	display:inline-block;
+	width: 70%;/*largeur des section*/
+	margin-left:25%;
+	margin:0 5px 0 25px;
+	min-width: 600px;/*largeur minimale de 600pixels*/
+	padding: 12px; /*marge intérieure*/
+	text-align: justify;/*texte justifié*/
+	background-image: url("images/fond_section.png");
+	background-repeat:repeat;
+	overflow:hidden;
+}
+footer
+{
+	clear: both; /*retour à  la ligne après un flottant*/
+}
+p
+{
+	font-size: 1em; /*taille*/
+	font-weight: normal;/*pas de gras*/
+	text-align: justify;/*texte justifié*/
+	width: 100%;/*largeur des paragraphes*/
+}
+a
+{
+	color: black/*couleur*/
+}
+a:hover /*Apparence au survol des liens*/
+{
+	color: rgb(255,229,121);
+	text-decoration: none;
+}
+h1
+{
+	font-size: 2.5em;/*taille*/
+	font-weight: bold;/*gras*/
+	text-align: center;/*alignement du texte*/
+	color: rgb(255,0,0)/*couleur (R, V, B)*/
+}
+h2
+{
+	font-size: 2em;/*taille*/
+	color: rgb(0,142,24);/*couleur (R, V, B)*/
+}
+h3
+{
+	font-size: 1.5em;/*taille*/
+}
+strong
+{
+	font-weight: normal;/*pas de gras*/
+}
+#fleche
+{
+	position:fixed;
+	right: 1%;
+	top: 50%;
+}
+.lilarge
+{
+	margin-bottom: 25px/*marge en-dessous*/
+}
+.image
+{
+	text-align: center;/*alignement de l'image*/
+}
+.italique
+{
+	font-style: italic; /*mettre en italique*/
+}
+.basitalique
+{
+	font-style: italic; /*mettre en italique*/
+	font-size: 0.5em; /*taille*/
+}
+.gras
+{
+	font-weight: bold;/*gras*/
+}
+.souligne
+{
+	text-decoration: underline /*souligné*/
+}
+.vert
+{
+	color: rgb(0,142,24);/*couleur (R, V, B)*/
+}
+.rouge
+{
+	color: rgb(255,0,0);/*couleur (R, V, B)*/
+}
+.gris
+{
+	color: rgb(166,166,166);/*couleur (R, V, B)*/
+}
+.blanc_non_souligne
+{
+	color: white;/*couleur de police*/
+	text-decoration: none;/*non souligné*/
+}
+.sanspuce
+{
+	list-style-type: none; /*enlever les puces*/
+}
